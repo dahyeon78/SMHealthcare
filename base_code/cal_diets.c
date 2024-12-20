@@ -35,7 +35,7 @@ void loadDiets(const char* DIETFILEPATH) { //="diet.txt"
 
      // ToCode: to read a list of the diets from the given file
     while (c=fgetc(fp))!=EOF) { //Repeat until the end of the file is reached
-    	putchar(c);
+    	putchar(c);//Print one letter at a time
         if (diet_list_size >= MAX_DIETS){
         	break;
 		}
