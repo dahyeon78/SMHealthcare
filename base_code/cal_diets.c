@@ -27,7 +27,7 @@ static int diet_list_size = 0;
 */
 
 void loadDiets(const char* DIETFILEPATH) { //="diet.txt"
-    FILE *file = fopen(DIETFILEPATH, "r");
+    FILE *file = fopen(DIETFILEPATH, "r");//only reading mode
     if (file == NULL) {
         printf("There is no file for diets! \n");
         return;
