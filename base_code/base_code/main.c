@@ -13,11 +13,11 @@
 #include "cal_diets.h"
 #include "cal_healthdata.h"
 
-#define EXERCISEFILEPATH "exercises.txt"
-#define DIETFILEPATH "diets.txt"
-#define HEALTHFILEPATH "health_data.txt"
+#define EXERCISEFILEPATH "exercises.txt" //EXERCISEFILEPATH changes to exercise. txt
+#define DIETFILEPATH "diets.txt" //DIETFILEPATH changes to exercise.txt
+#define HEALTHFILEPATH "health_data.txt" //HEALTHFILEPATH changes to exercise.txt
 
-static int choice;
+static int choice; // Global variable, but within that file
 
 int main() {
 	// To initialize the health data object
